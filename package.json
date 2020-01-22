@@ -1,0 +1,33 @@
+{
+  "name": "drip-and-shoot-tv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ousmane8/DRIP-AND-SHOOT-TV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ousmane8/DRIP-AND-SHOOT-TV/issues"
+  },
+  "homepage": "https://github.com/Ousmane8/DRIP-AND-SHOOT-TV#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-google-webfonts": "^2.1.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1"
+  }
+}
