@@ -3,7 +3,7 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const minify = require('gulp-clean-css');
 const imagemin = require('gulp-imagemin');
-const googleWebFonts = require('gulp-google-webfonts')
+
 const del = require('del');
 
 const clean = () => del(['assets'])
@@ -48,9 +48,6 @@ const images = () =>
         .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
         .pipe(gulp.dest(paths.images.dest))
 
-const fonts = () =>
-    gulp.src(paths.fonts.src)
-        .pipe(gulp.dest(paths.fonts.dest))
 
 const build = gulp.series(clean, gulp.parallel(styles, scripts, images));
 

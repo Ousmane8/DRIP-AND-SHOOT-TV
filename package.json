@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Ousmane8/DRIP-AND-SHOOT-TV#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
