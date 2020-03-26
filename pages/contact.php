@@ -51,7 +51,7 @@
                                 <a class="nav-link" href="calendrier.html">Calendrier</a>
                             </li>
                             <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -64,7 +64,73 @@
 
 <!-- ================================================== Votre CODE ici ================================================== -->
 
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="heading text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <h2>
+                <span>Contactez </span> NOUS</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eligendi
+                <br>
+                saepe deleniti sequi sint quaerat.</p>
+        </div>
+        <div class="main wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="row">
+                <div class="col-lg-8 left">
+                    <h3>Send Message</h3>
 
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Nom">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" placeholder="Sujet du mail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                        </div>
+                        <button class="btn btn-block" type="submit">Envoyer</button>
+                    </form>
+                </div>
+                <!-- Left -->
+                <div class="col-lg-4">
+                    <div class="right">
+                        <h4>Contact Information</h4>
+                        <div class="info d-flex align-items-center">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span>c - 165, Your Street Jaipur, <br>IN 91 554</span>
+                        </div>
+                        <div class="info d-flex align-items-center">
+                            <i class="fa fa-chrome" aria-hidden="true"></i>
+                            <span>+1-456-456-7890
+                                       </span>
+                        </div>
+                        <div class="info d-flex align-items-center">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span>info@yourdomain.com
+                                      </span>
+                        </div>
+                        <div class="social">
+                            <a href="#0">
+                                <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            </a>
+                            <a href="#0">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#0">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -124,7 +190,6 @@
     </div>
     <!-- ./Footer -->
 </div>
-
 
 <!-- Link to page
 ================================================== -->
