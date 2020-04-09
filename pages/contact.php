@@ -38,7 +38,7 @@
                                 <a class="nav-link" href="../index.html">Accueil</a>
                             </li>
                             <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="galeries.html" role="button" aria-haspopup="true" aria-expanded="false">Galeries</a>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Galeries</a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="galeries/images.html">Images</a>
                                     <a class="dropdown-item" href="galeries/videos.html">Vidéos</a>
