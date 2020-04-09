@@ -557,4 +557,16 @@ margin-top: 30%;
         background-color: transparent;
         box-shadow: none;
     }
+    .contact {
+        margin-top: 30%;
+        margin-bottom: 5%;
+        position: relative;
+    }
+    .contact .heading h2 {
+        font-size: 55px;
+        font-weight: 700;
+        /* color: #404356; */
+        margin: 0;
+        margin-bottom: 15px;
+    }
 }
