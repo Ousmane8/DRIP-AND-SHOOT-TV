@@ -166,7 +166,7 @@ body{
     overflow: hidden;
 }
 
-p{
+/*p{
     text-align: center;
     margin: 0;
     padding-top: 10px;
@@ -174,7 +174,7 @@ p{
     transform: translate(0);
     transition: all 300ms linear;
     transition-delay: 1700ms;
-}
+}*/
 body.hero-anime p{
     opacity: 0;
     transform: translateY(40px);
@@ -514,9 +514,12 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* #Dernières actualités TEXTES ================================================== */
+
 .content1-left{
     padding:9%;
 }
+
+
 .content1-right{
     padding:9%;
     background:#e4e4e4;
