@@ -957,10 +957,18 @@ body:before {
     }
 }
 
+.box {
+    width: 70%;
+    max-height: 800px;
+}
+.cl {
+    top: 10%;
+    right: 5em;
+}
 
 
 /* Large desktop */
-@media (min-width: 980px) {
+@media (min-width: 980px) and (max-width: 1200px) {
 
     .gallery_item_list {
         width: 50% !important;
@@ -969,14 +977,15 @@ body:before {
     .gallery_item {
         width: 24.45%;
     }
+    .box {
+        width: 70%;
+        max-height: 650px;
+    }
 
     .gallery_item_preview a img {
         height: 180px;
     }
-    .box {
-        width: 70%;
-        max-height: 800px;
-    }
+
     .cl {
         top: 10%;
         right: 5em;
