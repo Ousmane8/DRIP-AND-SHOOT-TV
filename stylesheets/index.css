@@ -358,7 +358,7 @@ h1 {
 }
 
 .mbr-justify-content-center{
-    margin-top: 40%;
+    margin-top: 30%;
 }
 
 .wrap {
@@ -367,7 +367,7 @@ h1 {
     /* padding: 1rem 1rem 1rem 1rem; */
     border-radius: 0.5rem;
     box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
-    margin-bottom: 0.3rem;
+    margin-bottom: 4rem;
     width: 95%;
     /* margin-top: 10%; */
 }
