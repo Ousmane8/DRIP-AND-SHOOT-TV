@@ -26,7 +26,7 @@
                         </div>
                     </div>
 
-                    <a class="navbar-brand" href="#" target="_blank"><img src="../images/MicrosoftTeams-image%20(2).png" alt=""></a>
+                    <a class="navbar-brand" href="#" target="_blank"><img src="../images/logo.png" alt=""></a>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -68,9 +68,9 @@
         <div class="heading text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <h2>
                 <span>Contactez </span> NOUS</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eligendi
+            <p>Une prestation ? Contacter nous sur les différents réseaux sociaux
                 <br>
-                saepe deleniti sequi sint quaerat.</p>
+                nous vous répondrons au plus vite.</p>
         </div>
         <div class="main wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <div class="row">
@@ -107,7 +107,7 @@
                         </div>
                         <div class="info d-flex align-items-center">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <span>info@yourdomain.com
+                            <span>dripandshoottv@ynov.com
                                       </span>
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 con">
@@ -129,17 +129,15 @@
 
 
 <!-- ================================================== Footer ================================================== -->
-
 <div id="footer" class="section down-height">
     <!-- Footer -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
                 <ul class="list-unstyled list-inline social text-center">
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/kevin.sossa.397"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/drip.shootv/"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UCA_cWNdQhtYRgs397nbsS0Q"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
             </hr>
