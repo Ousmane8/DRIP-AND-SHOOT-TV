@@ -19,11 +19,11 @@ body{
 }
 ::selection {
     color: #fff;
-    background-color: #8167a9;
+    background-color: #a91b0c;
 }
 ::-moz-selection {
     color: #fff;
-    background-color: #8167a9;
+    background-color: #a91b0c;
 }
 
 
@@ -114,7 +114,7 @@ body{
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
-    color: #8167a9 !important;
+    color: #a91f0c !important;
 }
 .nav-item.active .nav-link{
     color: #777 !important;
@@ -131,7 +131,7 @@ body{
     width: 100%;
     height: 2px;
     content: '';
-    background-color: #8167a9;
+    background-color: #ff2b12;
     opacity: 0;
     transition: all 200ms linear;
 }
@@ -190,7 +190,7 @@ body.hero-anime p{
 #switch {
     width: 60px;
     height: 8px;
-    border: 2px solid #8167a9;
+    border: 2px solid #ff2b12;
     border-radius: 27px;
     background: #000;
     position: relative;
@@ -218,7 +218,7 @@ body.hero-anime #switch{
 }
 .switched {
     border-color: #000 !important;
-    background: #8167a9 !important;
+    background: #ff2b12 !important;
 }
 .switched #circle {
     left: 43px;
@@ -266,7 +266,7 @@ body.hero-anime #switch{
 .dropdown-item:hover,
 .dropdown-item:focus {
     color: #fff;
-    background-color: rgba(129,103,169,.6);
+    background-color: rgba(255, 43, 18, 0.6);
 }
 
 body.dark{
@@ -316,30 +316,135 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Votre code ici ================================================== */
 
 
+.contact {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    position: relative;
+}
+.contact .heading {
+    margin-bottom: 50px;
+}
+.contact .heading h2 {
+    font-size: 70px;
+    font-weight: 700;
+    /*color: #404356;*/
+    margin: 0;
+    margin-bottom: 15px;
+}
+.contact .heading h2 span {
+    color: #ff2b12;
+    /*font-weight: 300;*/
+}
+.contact .heading p {
+    font-size: 14px;
+    font-weight: 400;
+    /*color: #525f7f;*/
+    line-height: 26px;
+    margin: 0;
+}
+.contact .main {
+    background: #ffffff;
+    box-shadow: 1px 1px 20px 0 rgba(0,0,0,0.08);
+}
+.contact .main h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a545e;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f8f8f9;
+    border: 0;
+    border-radius: 5px;
+}
+.contact button.btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: linear-gradient(to right, rgb(255, 12, 12) 0%, rgb(14, 14, 14) 100%);
+    color: #ffffff;
+}
+.contact button.btn:hover{
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(255, 12, 12) 100%);
+}
 
+.contact .main .left {
+    padding: 40px 60px;
+}
+.contact .main .right {
+    background: #ff2b12;
+    background-size: cover;
+    padding: 40px;
+    color: #ffffff;
+    height: 100%;
+}
+.contact .main .right h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.contact .main .right .info {
+    margin-bottom: 35px;
+}
+.contact .main .right .info i {
+    font-size: 25px;
+    color: #ffffff;
+}
+.contact .main .right .info span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 15px;
+}
+.contact .main .right .social a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.con{
+margin-top: 30%;
+}
+.word_section span{font-size:70px;font-weight:bold;}
+.m1{animation:mk1 500ms linear infinite alternate;}
+.m2{animation:mk2 500ms linear infinite alternate;}
+.word_section{animation:mk22 700ms linear infinite alternate;}
+@keyframes mk1{
+    from{color: rgb(255, 255, 255);}
+    to{color: rgb(255, 255, 255);}
+}
+@keyframes mk2{
+    from{color: rgb(255, 255, 255);}
+    to{color: rgb(255, 255, 255);}
+}
+@keyframes mk22{
+    from{letter-spacing:2px;border-bottom:5px dotted rgb(0, 0, 0);}
+    to{letter-spacing:0px;border-bottom:5px dotted rgb(0, 0, 0);}
+}
+@media only screen and (max-width:767px){
+    .word_section span{font-size:25px;font-weight:bold;}
 
-
-
-
-
-
+}
 /* Footer ================================================== */
 #footer {
-    padding: 60px 0;
+    padding-bottom: 2%;
     text-align: center;
-    color: #007b5e;
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+    background: black !important;
 }
-#footer h5{
+/*#footer h5{
     padding-left: 10px;
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
-}
+}*/
 #footer a {
     color: #ffffff;
     text-decoration: none !important;
@@ -367,7 +472,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #footer ul.social li a:hover{
     color:#eeeeee;
 }
-#footer ul.quick-links li{
+/*#footer ul.quick-links li{
     padding: 3px 0;
     -webkit-transition: .5s all ease;
     -moz-transition: .5s all ease;
@@ -377,7 +482,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 3px 0;
     margin-left:5px;
     font-weight:700;
-}
+}*/
 #footer ul.quick-links li a i{
     margin-right: 5px;
 }
@@ -451,5 +556,17 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     body.dark .dropdown-menu {
         background-color: transparent;
         box-shadow: none;
+    }
+    .contact {
+        margin-top: 30%;
+        margin-bottom: 5%;
+        position: relative;
+    }
+    .contact .heading h2 {
+        font-size: 55px;
+        font-weight: 700;
+        /* color: #404356; */
+        margin: 0;
+        margin-bottom: 15px;
     }
 }

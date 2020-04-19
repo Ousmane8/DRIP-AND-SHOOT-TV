@@ -8,7 +8,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,6 +27,7 @@
   <component name="ProjectId" id="1Wj5dtrpJ4Brcqlkl6P4D7cm4Yh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -47,6 +50,18 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -65,17 +80,13 @@
       <workItem from="1582652196679" duration="541000" />
       <workItem from="1584004724046" duration="3568000" />
       <workItem from="1584010246272" duration="2770000" />
-      <workItem from="1585213140439" duration="9208000" />
-      <workItem from="1586428717574" duration="8054000" />
-      <workItem from="1586443148799" duration="10756000" />
-      <workItem from="1586699806817" duration="111000" />
-      <workItem from="1587137089654" duration="27083000" />
-      <workItem from="1587299392935" duration="6695000" />
+      <workItem from="1585213140439" duration="9253000" />
+      <workItem from="1586428522675" duration="102000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584007748696">
@@ -99,14 +110,6 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1792.1120@0.0.1792.1120" timestamp="1579890804192" />
-    <state x="477" y="245" width="837" height="538" key="find.popup" timestamp="1587306071425">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="477" y="245" width="837" height="538" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1587306071425" />
-    <state x="664" y="265" width="700" height="530" key="recent.locations.popup" timestamp="1586451771717">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="664" y="265" width="700" height="530" key="recent.locations.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1586451771717" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1585229530009">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

@@ -6,7 +6,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    line-height: 24px;
     font-weight: 400;
     color: #212112;
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
@@ -19,11 +18,11 @@ body{
 }
 ::selection {
     color: #fff;
-    background-color: #8167a9;
+    background-color: #a91b0c;
 }
 ::-moz-selection {
     color: #fff;
-    background-color: #8167a9;
+    background-color: #a91b0c;
 }
 
 
@@ -114,7 +113,7 @@ body{
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
-    color: #8167a9 !important;
+    color: #a91f0c !important;
 }
 .nav-item.active .nav-link{
     color: #777 !important;
@@ -131,7 +130,7 @@ body{
     width: 100%;
     height: 2px;
     content: '';
-    background-color: #8167a9;
+    background-color: #ff2b12;
     opacity: 0;
     transition: all 200ms linear;
 }
@@ -166,15 +165,6 @@ body{
     overflow: hidden;
 }
 
-p{
-    text-align: center;
-    margin: 0;
-    padding-top: 10px;
-    opacity: 1;
-    transform: translate(0);
-    transition: all 300ms linear;
-    transition-delay: 1700ms;
-}
 body.hero-anime p{
     opacity: 0;
     transform: translateY(40px);
@@ -190,7 +180,7 @@ body.hero-anime p{
 #switch {
     width: 60px;
     height: 8px;
-    border: 2px solid #8167a9;
+    border: 2px solid #ff2b12;
     border-radius: 27px;
     background: #000;
     position: relative;
@@ -218,7 +208,7 @@ body.hero-anime #switch{
 }
 .switched {
     border-color: #000 !important;
-    background: #8167a9 !important;
+    background: #ff2b12 !important;
 }
 .switched #circle {
     left: 43px;
@@ -266,7 +256,7 @@ body.hero-anime #switch{
 .dropdown-item:hover,
 .dropdown-item:focus {
     color: #fff;
-    background-color: rgba(129,103,169,.6);
+    background-color: rgba(255, 43, 18, 0.6);
 }
 
 body.dark{
@@ -313,33 +303,280 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
+
+
 /* Votre code ici ================================================== */
 
+h2{
+    font-size: 170%;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.event-list .info .row{
+    padding-left: 10px;
+    font-size: 80%;
+}
+
+.event-list {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.event-list > li {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgb(51, 51, 51);
+    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+    padding: 0px;
+    margin: 0px 0px 20px;
+}
+.event-list > li > time {
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 44, 102);
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.event-list > li:nth-child(even) > time {
+    background-color: rgb(165, 82, 167);
+}
+.event-list > li > time > span {
+    display: none;
+}
+.event-list > li > time > .day {
+    display: block;
+    font-size: 56pt;
+    font-weight: 100;
+    line-height: 1;
+}
+.event-list > li time > .month {
+    display: block;
+    font-size: 24pt;
+    font-weight: 900;
+    line-height: 1;
+}
+.event-list > li > img {
+    width: 100%;
+}
+.event-list > li > .info {
+    padding-top: 5px;
+    text-align: center;
+}
+.event-list > li > .info > .title {
+    font-size: 17pt;
+    font-weight: 700;
+    margin: 0px;
+}
+.event-list > li > .info > .desc {
+    font-size: 13pt;
+    font-weight: 300;
+    margin: 0px;
+}
+.event-list > li > .info > ul,
+.event-list > li > .social > ul {
+    display: table;
+    list-style: none;
+    margin: 10px 0px 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+.event-list > li > .social > ul {
+    margin: 0px;
+}
+.event-list > li > .info > ul > li,
+.event-list > li > .social > ul > li {
+    display: table-cell;
+    cursor: pointer;
+    color: rgb(30, 30, 30);
+    font-size: 11pt;
+    font-weight: 300;
+    padding: 3px 0px;
+}
+.event-list > li > .info > ul > li > a {
+    display: block;
+    width: 100%;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+.event-list > li > .social > ul > li {
+    padding: 0px;
+}
+.event-list > li > .social > ul > li > a {
+    padding: 3px 0px;
+}
+.event-list > li > .info > ul > li:hover,
+.event-list > li > .social > ul > li:hover {
+    color: rgb(30, 30, 30);
+    background-color: rgb(200, 200, 200);
+}
+.facebook a,
+.twitter a,
+.google-plus a {
+    display: block;
+    width: 100%;
+    color: rgb(75, 110, 168) !important;
+}
+.twitter a {
+    color: rgb(79, 213, 248) !important;
+}
+.google-plus a {
+    color: rgb(221, 75, 57) !important;
+}
+.facebook:hover a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(75, 110, 168) !important;
+}
+.twitter:hover a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(79, 213, 248) !important;
+}
+.google-plus:hover a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(221, 75, 57) !important;
+}
+
+@media (min-width: 768px) {
+    .event-list > li {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 120px;
+        padding: 0px;
+    }
+    .event-list > li > time,
+    .event-list > li > img  {
+        display: inline-block;
+    }
+    .event-list > li > time,
+    .event-list > li > img {
+        width: 120px;
+        float: left;
+    }
+    .event-list > li > .info {
+        background-color: rgb(245, 245, 245);
+        overflow: hidden;
+    }
+    .event-list > li > time,
+    .event-list > li > img {
+        width: 120px;
+        height: 120px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .event-list > li > .info {
+        position: relative;
+        height: 120px;
+        text-align: left;
+        padding-right: 40px;
+    }
+    .event-list > li > .info > .title,
+    .event-list > li > .info > .desc {
+        padding: 0px 10px;
+    }
+    .event-list > li > .info > ul {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .event-list > li > .social {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: block;
+        width: 40px;
+    }
+    .event-list > li > .social > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+    .event-list > li > .social > ul > li {
+        display: block;
+        padding: 0px;
+    }
+    .event-list > li > .social > ul > li > a {
+        display: block;
+        width: 40px;
+        padding: 10px 0px 8px;
+    }
+}
+
+.event{
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+.pff{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+    /* opacity: 1;
+ transform: translate(0);
+   transition: all 300ms linear;
+   transition-delay: 1700ms;*/
+}
+
+.titleevent{
+    color: black;
+    text-align: center;
+    font-size: 3em;
+   /* margin: 10px 0 0 10px;*/
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    text-transform: uppercase;
+    animation: animtext 4s steps(80, end);
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext {
+    from {
+        width: 0;
+        transition: all 2s ease-in-out;
+    }
+}
 
 
+.calendar-toolbar {
+    margin-bottom: 10px;
+}
+.calendar-month-row {
+    height: 75px;
+}
+.calendar-prior-months-date {
+    color: #ff0c0c;
+}
+.calendar-month-row{
+    color: #000000;
+}
+.calendar-current-date {
+    text-align: center;
+    display: inline-block;
+    width: 115px;
+}
 
 
-
-
-
-
+.calendre{
+    background-color: white;
+}
+.fa-calendar{
+    font-size: 150px;
+}
 /* Footer ================================================== */
 #footer {
-    padding: 60px 0;
+    padding-bottom: 2%;
     text-align: center;
-    color: #007b5e;
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+    background: black !important;
 }
-#footer h5{
+/*#footer h5{
     padding-left: 10px;
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
-}
+}*/
 #footer a {
     color: #ffffff;
     text-decoration: none !important;
@@ -367,7 +604,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #footer ul.social li a:hover{
     color:#eeeeee;
 }
-#footer ul.quick-links li{
+/*#footer ul.quick-links li{
     padding: 3px 0;
     -webkit-transition: .5s all ease;
     -moz-transition: .5s all ease;
@@ -377,7 +614,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 3px 0;
     margin-left:5px;
     font-weight:700;
-}
+}*/
 #footer ul.quick-links li a i{
     margin-right: 5px;
 }
