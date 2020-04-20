@@ -20,12 +20,6 @@
             <div class="col-12">
                 <nav class="navbar navbar-expand-md navbar-light">
 
-                    <div class="navbar-brand">
-                        <div id="switch">
-                            <div id="circle"></div>
-                        </div>
-                    </div>
-
                     <a class="navbar-brand" href="#" target="_blank"><img src="../images/logo.png" alt=""></a>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -137,14 +131,14 @@
                 <ul class="list-unstyled list-inline social text-center">
                     <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/kevin.sossa.397"><i class="fa fa-facebook"></i></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/drip.shootv/"><i class="fa fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UCA_cWNdQhtYRgs397nbsS0Q"><i class="fa fa-youtube"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UCwpvEY7Z_fgotSogKhXVixg"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
             </hr>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Drip & Shoot TV</a></p>
+                <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://dripandshoottv.fr">Drip & Shoot TV</a></p>
             </div>
             </hr>
         </div>
